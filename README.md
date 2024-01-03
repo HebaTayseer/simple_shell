@@ -24,33 +24,22 @@ This project aims to create a simple shell program in C, allowing users to execu
 ### Compilation
 
 ```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o simple_shell
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+```
 
 ## Running the Shell
 
 ### Interactive Mode
 
-bash
-Copy code
-./simple_shell
+```bash
+./hsh
+```
 
 ### Non-interactive Mode
 
-bash
-Copy code
-echo "/bin/ls" | ./simple_shell
-
-## Usage Examples
-
-bash
-Copy code
-$ ./simple_shell
-($) /bin/ls
-file1.txt file2.txt
-($) exit
-bash
-Copy code
-$ echo "/bin/ls" | ./si
+```bash
+$ echo "/bin/ls" | ./hsh
+```
 
 ## Contributor
 
